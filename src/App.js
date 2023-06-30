@@ -12,7 +12,7 @@ const App = () => {
           <Route exact path="/">
             <News key="general" pagesize={6} country="in" category="general" />
           </Route>
-          <Route exact path="/business">
+          <Route exact path="/bussiness">
             <News key="business" pagesize={6} country="in" category="business" />
           </Route>
           <Route exact path="/entertainment">
